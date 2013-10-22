@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECB769B18167525008EFCFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769A18167525008EFCFA /* Foundation.framework */; };
+		CECB769D18167525008EFCFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769C18167525008EFCFA /* CoreGraphics.framework */; };
+		CECB769F18167525008EFCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769E18167525008EFCFA /* UIKit.framework */; };
+		CECB76A518167525008EFCFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECB76A318167525008EFCFA /* InfoPlist.strings */; };
+		CECB76A718167525008EFCFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76A618167525008EFCFA /* main.m */; };
+		CECB76AB18167525008EFCFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76AA18167525008EFCFA /* AppDelegate.m */; };
+		CECB76AE18167525008EFCFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB76AC18167525008EFCFA /* Main.storyboard */; };
+		CECB76B118167525008EFCFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76B018167525008EFCFA /* MasterViewController.m */; };
+		CECB76B418167525008EFCFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76B318167525008EFCFA /* DetailViewController.m */; };
+		CECB76B618167525008EFCFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECB76B518167525008EFCFA /* Images.xcassets */; };
+		CECB76BD18167525008EFCFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB76BC18167525008EFCFA /* XCTest.framework */; };
+		CECB76BE18167525008EFCFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769A18167525008EFCFA /* Foundation.framework */; };
+		CECB76BF18167525008EFCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769E18167525008EFCFA /* UIKit.framework */; };
+		CECB76C718167525008EFCFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECB76C518167525008EFCFA /* InfoPlist.strings */; };
+		CECB76C918167525008EFCFA /* kumaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76C818167525008EFCFA /* kumaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECB76C018167525008EFCFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECB768F18167525008EFCFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECB769618167525008EFCFA;
+			remoteInfo = kuma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECB769718167525008EFCFA /* kuma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECB769A18167525008EFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CECB769C18167525008EFCFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CECB769E18167525008EFCFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CECB76A218167525008EFCFA /* kuma-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuma-Info.plist"; sourceTree = "<group>"; };
+		CECB76A418167525008EFCFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CECB76A618167525008EFCFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECB76A818167525008EFCFA /* kuma-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuma-Prefix.pch"; sourceTree = "<group>"; };
+		CECB76A918167525008EFCFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECB76AA18167525008EFCFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECB76AD18167525008EFCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECB76AF18167525008EFCFA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CECB76B018167525008EFCFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CECB76B218167525008EFCFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CECB76B318167525008EFCFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CECB76B518167525008EFCFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECB76BB18167525008EFCFA /* kumaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kumaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECB76BC18167525008EFCFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CECB76C418167525008EFCFA /* kumaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kumaTests-Info.plist"; sourceTree = "<group>"; };
+		CECB76C618167525008EFCFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CECB76C818167525008EFCFA /* kumaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kumaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECB769418167525008EFCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB769D18167525008EFCFA /* CoreGraphics.framework in Frameworks */,
+				CECB769F18167525008EFCFA /* UIKit.framework in Frameworks */,
+				CECB769B18167525008EFCFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECB76B818167525008EFCFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB76BD18167525008EFCFA /* XCTest.framework in Frameworks */,
+				CECB76BF18167525008EFCFA /* UIKit.framework in Frameworks */,
+				CECB76BE18167525008EFCFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECB768E18167525008EFCFA = {
+			isa = PBXGroup;
+			children = (
+				CECB76A018167525008EFCFA /* kuma */,
+				CECB76C218167525008EFCFA /* kumaTests */,
+				CECB769918167525008EFCFA /* Frameworks */,
+				CECB769818167525008EFCFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECB769818167525008EFCFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECB769718167525008EFCFA /* kuma.app */,
+				CECB76BB18167525008EFCFA /* kumaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECB769918167525008EFCFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECB769A18167525008EFCFA /* Foundation.framework */,
+				CECB769C18167525008EFCFA /* CoreGraphics.framework */,
+				CECB769E18167525008EFCFA /* UIKit.framework */,
+				CECB76BC18167525008EFCFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECB76A018167525008EFCFA /* kuma */ = {
+			isa = PBXGroup;
+			children = (
+				CECB76A918167525008EFCFA /* AppDelegate.h */,
+				CECB76AA18167525008EFCFA /* AppDelegate.m */,
+				CECB76AC18167525008EFCFA /* Main.storyboard */,
+				CECB76AF18167525008EFCFA /* MasterViewController.h */,
+				CECB76B018167525008EFCFA /* MasterViewController.m */,
+				CECB76B218167525008EFCFA /* DetailViewController.h */,
+				CECB76B318167525008EFCFA /* DetailViewController.m */,
+				CECB76B518167525008EFCFA /* Images.xcassets */,
+				CECB76A118167525008EFCFA /* Supporting Files */,
+			);
+			path = kuma;
+			sourceTree = "<group>";
+		};
+		CECB76A118167525008EFCFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECB76A218167525008EFCFA /* kuma-Info.plist */,
+				CECB76A318167525008EFCFA /* InfoPlist.strings */,
+				CECB76A618167525008EFCFA /* main.m */,
+				CECB76A818167525008EFCFA /* kuma-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECB76C218167525008EFCFA /* kumaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECB76C818167525008EFCFA /* kumaTests.m */,
+				CECB76C318167525008EFCFA /* Supporting Files */,
+			);
+			path = kumaTests;
+			sourceTree = "<group>";
+		};
+		CECB76C318167525008EFCFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECB76C418167525008EFCFA /* kumaTests-Info.plist */,
+				CECB76C518167525008EFCFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECB769618167525008EFCFA /* kuma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECB76CC18167525008EFCFA /* Build configuration list for PBXNativeTarget "kuma" */;
+			buildPhases = (
+				CECB769318167525008EFCFA /* Sources */,
+				CECB769418167525008EFCFA /* Frameworks */,
+				CECB769518167525008EFCFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuma;
+			productName = kuma;
+			productReference = CECB769718167525008EFCFA /* kuma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECB76BA18167525008EFCFA /* kumaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECB76CF18167525008EFCFA /* Build configuration list for PBXNativeTarget "kumaTests" */;
+			buildPhases = (
+				CECB76B718167525008EFCFA /* Sources */,
+				CECB76B818167525008EFCFA /* Frameworks */,
+				CECB76B918167525008EFCFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECB76C118167525008EFCFA /* PBXTargetDependency */,
+			);
+			name = kumaTests;
+			productName = kumaTests;
+			productReference = CECB76BB18167525008EFCFA /* kumaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECB768F18167525008EFCFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CECB76BA18167525008EFCFA = {
+						TestTargetID = CECB769618167525008EFCFA;
+					};
+				};
+			};
+			buildConfigurationList = CECB769218167525008EFCFA /* Build configuration list for PBXProject "kuma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECB768E18167525008EFCFA;
+			productRefGroup = CECB769818167525008EFCFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECB769618167525008EFCFA /* kuma */,
+				CECB76BA18167525008EFCFA /* kumaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECB769518167525008EFCFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB76B618167525008EFCFA /* Images.xcassets in Resources */,
+				CECB76A518167525008EFCFA /* InfoPlist.strings in Resources */,
+				CECB76AE18167525008EFCFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECB76B918167525008EFCFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB76C718167525008EFCFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECB769318167525008EFCFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB76AB18167525008EFCFA /* AppDelegate.m in Sources */,
+				CECB76B118167525008EFCFA /* MasterViewController.m in Sources */,
+				CECB76A718167525008EFCFA /* main.m in Sources */,
+				CECB76B418167525008EFCFA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECB76B718167525008EFCFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB76C918167525008EFCFA /* kumaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECB76C118167525008EFCFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECB769618167525008EFCFA /* kuma */;
+			targetProxy = CECB76C018167525008EFCFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECB76A318167525008EFCFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECB76A418167525008EFCFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CECB76AC18167525008EFCFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECB76AD18167525008EFCFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECB76C518167525008EFCFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECB76C618167525008EFCFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECB76CA18167525008EFCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CECB76CB18167525008EFCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECB76CD18167525008EFCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuma/kuma-Prefix.pch";
+				INFOPLIST_FILE = "kuma/kuma-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CECB76CE18167525008EFCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuma/kuma-Prefix.pch";
+				INFOPLIST_FILE = "kuma/kuma-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CECB76D018167525008EFCFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kuma.app/kuma";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuma/kuma-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kumaTests/kumaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CECB76D118167525008EFCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kuma.app/kuma";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuma/kuma-Prefix.pch";
+				INFOPLIST_FILE = "kumaTests/kumaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECB769218167525008EFCFA /* Build configuration list for PBXProject "kuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECB76CA18167525008EFCFA /* Debug */,
+				CECB76CB18167525008EFCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECB76CC18167525008EFCFA /* Build configuration list for PBXNativeTarget "kuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECB76CD18167525008EFCFA /* Debug */,
+				CECB76CE18167525008EFCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECB76CF18167525008EFCFA /* Build configuration list for PBXNativeTarget "kumaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECB76D018167525008EFCFA /* Debug */,
+				CECB76D118167525008EFCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECB768F18167525008EFCFA /* Project object */;
+}
