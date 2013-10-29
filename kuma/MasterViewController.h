@@ -10,4 +10,6 @@
 
 @interface MasterViewController : UITableViewController
 
+- (IBAction)pressComposeButton:(id)sender;
+
 @end
