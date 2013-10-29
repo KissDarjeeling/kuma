@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEB72AE4181E5A1000332619 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB72AE3181E5A1000332619 /* Accounts.framework */; };
 		CECB769B18167525008EFCFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769A18167525008EFCFA /* Foundation.framework */; };
 		CECB769D18167525008EFCFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769C18167525008EFCFA /* CoreGraphics.framework */; };
 		CECB769F18167525008EFCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769E18167525008EFCFA /* UIKit.framework */; };
@@ -22,6 +23,14 @@
 		CECB76BF18167525008EFCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB769E18167525008EFCFA /* UIKit.framework */; };
 		CECB76C718167525008EFCFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECB76C518167525008EFCFA /* InfoPlist.strings */; };
 		CECB76C918167525008EFCFA /* kumaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76C818167525008EFCFA /* kumaTests.m */; };
+		CECB76D61816755C008EFCFA /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76D31816755C008EFCFA /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CECB76D71816755C008EFCFA /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76D51816755C008EFCFA /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CECB76DB18167572008EFCFA /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76D918167572008EFCFA /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CECB76DC18167572008EFCFA /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECB76DA18167572008EFCFA /* GTMOAuthViewTouch.xib */; };
+		CECB76DF18167585008EFCFA /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76DE18167585008EFCFA /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CECB76E2181675CE008EFCFA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB76E0181675CE008EFCFA /* Security.framework */; };
+		CECB76E3181675CE008EFCFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB76E1181675CE008EFCFA /* SystemConfiguration.framework */; };
+		CECB76E618167CB3008EFCFA /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB76E518167CB3008EFCFA /* TweetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEB72AE3181E5A1000332619 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		CECB769718167525008EFCFA /* kuma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECB769A18167525008EFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CECB769C18167525008EFCFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +66,19 @@
 		CECB76C418167525008EFCFA /* kumaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kumaTests-Info.plist"; sourceTree = "<group>"; };
 		CECB76C618167525008EFCFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECB76C818167525008EFCFA /* kumaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kumaTests.m; sourceTree = "<group>"; };
+		CECB76D21816755C008EFCFA /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
+		CECB76D31816755C008EFCFA /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
+		CECB76D41816755C008EFCFA /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
+		CECB76D51816755C008EFCFA /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
+		CECB76D818167572008EFCFA /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
+		CECB76D918167572008EFCFA /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
+		CECB76DA18167572008EFCFA /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
+		CECB76DD18167585008EFCFA /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		CECB76DE18167585008EFCFA /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		CECB76E0181675CE008EFCFA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CECB76E1181675CE008EFCFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CECB76E418167CB3008EFCFA /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		CECB76E518167CB3008EFCFA /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB72AE4181E5A1000332619 /* Accounts.framework in Frameworks */,
+				CECB76E2181675CE008EFCFA /* Security.framework in Frameworks */,
+				CECB76E3181675CE008EFCFA /* SystemConfiguration.framework in Frameworks */,
 				CECB769D18167525008EFCFA /* CoreGraphics.framework in Frameworks */,
 				CECB769F18167525008EFCFA /* UIKit.framework in Frameworks */,
 				CECB769B18167525008EFCFA /* Foundation.framework in Frameworks */,
@@ -104,6 +130,9 @@
 		CECB769918167525008EFCFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEB72AE3181E5A1000332619 /* Accounts.framework */,
+				CECB76E0181675CE008EFCFA /* Security.framework */,
+				CECB76E1181675CE008EFCFA /* SystemConfiguration.framework */,
 				CECB769A18167525008EFCFA /* Foundation.framework */,
 				CECB769C18167525008EFCFA /* CoreGraphics.framework */,
 				CECB769E18167525008EFCFA /* UIKit.framework */,
@@ -118,10 +147,21 @@
 				CECB76A918167525008EFCFA /* AppDelegate.h */,
 				CECB76AA18167525008EFCFA /* AppDelegate.m */,
 				CECB76AC18167525008EFCFA /* Main.storyboard */,
+				CECB76E418167CB3008EFCFA /* TweetViewController.h */,
+				CECB76E518167CB3008EFCFA /* TweetViewController.m */,
 				CECB76AF18167525008EFCFA /* MasterViewController.h */,
 				CECB76B018167525008EFCFA /* MasterViewController.m */,
 				CECB76B218167525008EFCFA /* DetailViewController.h */,
 				CECB76B318167525008EFCFA /* DetailViewController.m */,
+				CECB76D21816755C008EFCFA /* GTMOAuthAuthentication.h */,
+				CECB76D31816755C008EFCFA /* GTMOAuthAuthentication.m */,
+				CECB76D41816755C008EFCFA /* GTMOAuthSignIn.h */,
+				CECB76D51816755C008EFCFA /* GTMOAuthSignIn.m */,
+				CECB76D818167572008EFCFA /* GTMOAuthViewControllerTouch.h */,
+				CECB76D918167572008EFCFA /* GTMOAuthViewControllerTouch.m */,
+				CECB76DA18167572008EFCFA /* GTMOAuthViewTouch.xib */,
+				CECB76DD18167585008EFCFA /* GTMHTTPFetcher.h */,
+				CECB76DE18167585008EFCFA /* GTMHTTPFetcher.m */,
 				CECB76B518167525008EFCFA /* Images.xcassets */,
 				CECB76A118167525008EFCFA /* Supporting Files */,
 			);
@@ -234,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECB76B618167525008EFCFA /* Images.xcassets in Resources */,
+				CECB76DC18167572008EFCFA /* GTMOAuthViewTouch.xib in Resources */,
 				CECB76A518167525008EFCFA /* InfoPlist.strings in Resources */,
 				CECB76AE18167525008EFCFA /* Main.storyboard in Resources */,
 			);
@@ -255,9 +296,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECB76AB18167525008EFCFA /* AppDelegate.m in Sources */,
+				CECB76D61816755C008EFCFA /* GTMOAuthAuthentication.m in Sources */,
 				CECB76B118167525008EFCFA /* MasterViewController.m in Sources */,
+				CECB76E618167CB3008EFCFA /* TweetViewController.m in Sources */,
 				CECB76A718167525008EFCFA /* main.m in Sources */,
+				CECB76DF18167585008EFCFA /* GTMHTTPFetcher.m in Sources */,
+				CECB76D71816755C008EFCFA /* GTMOAuthSignIn.m in Sources */,
 				CECB76B418167525008EFCFA /* DetailViewController.m in Sources */,
+				CECB76DB18167572008EFCFA /* GTMOAuthViewControllerTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +512,7 @@
 				CECB76CE18167525008EFCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CECB76CF18167525008EFCFA /* Build configuration list for PBXNativeTarget "kumaTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +521,7 @@
 				CECB76D118167525008EFCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
